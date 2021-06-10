@@ -1,0 +1,12 @@
+<div class="container p-110-cont">
+    <div class="row">
+        <div class="col-md-12">
+            <dl class="accordion">
+                <% faq && faq.length && faq.forEach(({ q, a }) => { %>
+                <dt><a href="#"><%= q %></a></dt>
+                <dd><%= a %></dd>
+                <% }) %>
+            </dl>
+        </div>
+    </div>
+</div>

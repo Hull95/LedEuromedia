@@ -1,0 +1,57 @@
+<!-- PORTFOLIO SCRIPTS -->
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+
+<!-- PARALLAX -->
+<script src="js/jquery.stellar.min.js"></script>
+
+<!-- TEXT ROTATOR -->
+<script src="js/text-rotator.js"></script>
+
+<!-- BACKGROUND VIDEO -->
+<script src="js/jquery.backgroundvideo.min.js"></script>
+<script>
+    $(document).ready(function () {
+        if (!$('html').hasClass('mobile')) {
+            var videobackground = new $.backgroundVideo($('.sm-video'), {
+                align: 'centerXY',
+                width: 1920,
+                height: 1080,
+                path: 'video/',
+                filename: 'hero',
+                types: ['mp4', 'webm'],
+                autoplay: true,
+                loop: true
+            })
+        }
+    })
+</script>
+
+<!-- ONE PAGE NAV -->
+<script src="js/jquery.nav.js"></script>
+<script>
+    $(document).ready(function () {
+        //ONE PAGE NAV	---------------------------------------------------------------------------
+        var top_offset = $('header').height() - 1 // get height of fixed navbar
+
+        $('#nav-onepage').onePageNav({
+            currentClass: 'current',
+            changeHash: false,
+            scrollSpeed: 700,
+            scrollOffset: top_offset,
+            scrollThreshold: 0.5,
+            filter: '',
+            easing: 'swing',
+            begin: function () {
+                //I get fired when the animation is starting
+            },
+            end: function () {
+                //I get fired when the animation is ending
+            },
+            scrollChange: function ($currentListItem) {
+                //I get fired when you enter a section and I pass the list item of the section
+            }
+        })
+    }) //END document.ready
+</script>
+<!--[if lt IE 10]><script src="js/jquery.placeholder.js"></script><![endif]-->

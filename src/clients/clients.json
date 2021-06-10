@@ -1,0 +1,26 @@
+[
+    { "name": "Fibran", "src": "/images/clients/1.png" },
+    { "name": "Varta", "src": "/images/clients/2.png" },
+    { "name": "Vivia", "src": "/images/clients/3.png" },
+    { "name": "Gotiva Knedle", "src": "/images/clients/4.png" },
+    { "name": "Tondach", "src": "/images/clients/5.png" },
+    { "name": "Kuprešak", "src": "/images/clients/6.png" },
+    { "name": "Vlamaco", "src": "/images/clients/7.png" },
+    { "name": "Centrum Trade", "src": "/images/clients/8.png" },
+    { "name": "Darko Komerc", "src": "/images/clients/1.png" },
+    { "name": "Aqua Lab", "src": "/images/clients/2.png" },
+
+    { "name": "Gradski Servis", "src": "/images/clients/3.png" },
+    { "name": "AR Komerc", "src": "/images/clients/4.png" },
+    { "name": "Baumit", "src": "/images/clients/5.png" },
+    { "name": "Bref", "src": "/images/clients/6.png" },
+    {
+        "name": "Udruženje Sudskih Tumača Republike Srpske",
+        "src": "/images/clients/7.png"
+    },
+
+    { "name": "Nestro", "src": "/images/clients/8.png" },
+    { "name": "City Block Naselje", "src": "/images/clients/1.png" },
+    { "name": "LOFT Design House", "src": "/images/clients/2.png" },
+    { "name": "Naselje Park", "src": "/images/clients/3.png" }
+]
