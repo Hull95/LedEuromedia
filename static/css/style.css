@@ -3378,7 +3378,7 @@ select.input-border {
     color: #000467;
 }
 .footer-soc-a a {
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px;
 }
 
@@ -12647,6 +12647,10 @@ body .navbar-default .navbar-nav > li > a:hover::before {
     padding-left: 5%;
 }
 
+.pr-5 {
+    padding-right: 5%;
+}
+
 .pt-5 {
     padding-top: 5%;
 }
@@ -12834,6 +12838,14 @@ body .navbar-default .navbar-nav > li > a:hover::before {
 
   .sv-background-color-contact {
       background-color: #00e8bb!important;
+  }
+
+  .sv-background-color-kpi {
+      background-color: #000467;
+  }
+
+  .sv-color {
+      color:white!important;
   }
 
 
