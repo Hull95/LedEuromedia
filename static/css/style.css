@@ -6106,8 +6106,10 @@ button {
     color: #fff;
 }
 .button.thin.gray {
-    border-color: #535961;
-    color: #535961;
+    border-color: #000467;
+    color: #000467;
+    width: 100%;
+    text-align: center;
 }
 .button.thin.gray:hover {
     background-color: #535961;
