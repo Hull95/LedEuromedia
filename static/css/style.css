@@ -6111,7 +6111,7 @@ button {
 }
 .button.thin.gray:hover {
     background-color: #535961;
-    color: #fff;
+    color: #00e8bb!important;
 }
 .button.thin.white {
     border-color: #fff;
@@ -6325,7 +6325,7 @@ button {
 }
 .button.gray:hover {
     background-color: #010343;
-    color:#fff;
+    color:#00e8bb;
 }
 .button.gray-light {
     color: #000467;
@@ -12893,7 +12893,43 @@ body .navbar-default .navbar-nav > li > a:hover::before {
     font-weight: 600;
 }
 
+.sv-mb-3 {
+    margin-bottom: 3%;
+}
+
 .sv-p-unset {
     padding-right: unset;
     padding-left: unset;
+}
+
+.sv-card-location {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20% 5%;
+    background: white;
+    font-size: 24px;
+    color: #010343;
+    font-weight: 600;
+}
+
+.sv-card-location:hover {
+    background: #010343;
+    color: #00e8bb;
+}
+.sv-padding-bottom-card {
+    padding-bottom: 3%;
+}
+
+.sv-height {
+    height: 80vh;
+}
+.sv-background-home {
+    background-color: #eee;
+}
+
+@media (max-width: 1170px) {
+    .sv-height-text {
+        height: 40vh!important;
+
+    }
 }

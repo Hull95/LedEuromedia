@@ -87,12 +87,11 @@ $(document).ready(function () {
     SMOOTH SCROLL TO 
   --------------------------------------------- */
     $('a.smooth-scroll[href^="#"]').on('click', function (event) {
-
         var target = $($(this).attr('href'))
 
         if (target.length) {
             event.preventDefault()
-            $("html, body").animate({ scrollTop: 900 }, "slow");
+            $('html, body').animate({ scrollTop: 900 }, 'slow')
         }
     })
 
@@ -1414,4 +1413,3 @@ function initNavStick2() {
         }
     })
 }
-

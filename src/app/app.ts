@@ -7,6 +7,7 @@ import bodyParser from 'body-parser'
 import homeRouter from '../home/home.router'
 import contactRouter from '../contact/contact.router'
 import clientsRouter from '../clients/clients.router'
+import locationRouter from '../location/location.router'
 
 export function createApp() {
     const app = express()
@@ -24,6 +25,7 @@ export function createApp() {
     app.use('/', homeRouter)
     app.use('/kontakt', contactRouter)
     app.use('/nasi-klijenti', clientsRouter)
+    app.use('/location',locationRouter)
 
     return app
 }

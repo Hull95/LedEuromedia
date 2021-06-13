@@ -8,25 +8,37 @@
         <meta name="description" content="Ledeuromedia" />
         <meta name="author" content="ABCgomel" />
 
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
+        <!-- FAVICONS -->
         <link rel="shortcut icon" href="images/logo-led2.png" />
 
+        <!-- CSS -->
+
+        <!-- FLEXSLIDER SLIDER CSS -->
         <link rel="stylesheet" type="text/css" href="css/flexslider.css" />
 
+        <!-- BOOTSTRAP -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700" rel="stylesheet" type="text/css"/>
+        <!-- GOOGLE FONT -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:300,400,700%7COpen+Sans:400,300,700"
+            rel="stylesheet"
+            type="text/css"
+        />
 
+        <!-- ICONS ELEGANT FONT & FONT AWESOME & LINEA ICONS -->
         <link rel="stylesheet" href="css/icons-fonts.css" />
+
+        <!-- CSS THEME -->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- ANIMATE -->
         <link rel="stylesheet" href="css/animate.min.css" />
     </head>
     <body>
-
+        <!-- LOADER -->
         <div id="loader-overflow">
             <div id="loader3">Please enable JS</div>
         </div>
@@ -35,30 +47,25 @@
             <div class="grey-bg">
                 <%- include('../layout/header') -%>
 
+                <!-- PAGE TITLE -->
                 <div class="page-title-cont page-title-small sv-background-color-contact">
-                    <div class="container align-left">
+                    <div class="relative container align-left">
                         <div class="row">
-                            <div class="col-12 col-md-12 col-lg-12">
-                                <h1 class="page-title">O NAMA</h1>
+                            <div class="col-md-8">
+                                <h1 class="page-title">LOKACIJA</h1>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <%- include('../shared/location-about') -%>
-                
-                <%- include('../shared/about') -%>
-                
                 <%- include('../layout/footer') -%>
 
-
-                <p id="back-top">
-                    <a href="#top" title="Back to Top"
-                        ><span class="icon icon-arrows-up"></span
-                    ></a>
-                </p>
+                <!-- BACK TO TOP -->
             </div>
+            <!-- End BG -->
         </div>
+        <!-- End wrap -->
+
         <%- include('../shared/scripts') -%>
     </body>
 </html>
