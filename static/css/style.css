@@ -6869,11 +6869,6 @@ a:focus {
 }
 
 @media (max-width: 1024px) {
-    .page-title-cont,
-    .page-title-small {
-        padding-top: 10px;
-        padding-bottom: 40px;
-    }
     .page-title-cont.page-title-large {
         padding-top: 30px;
     }
@@ -12655,6 +12650,10 @@ body .navbar-default .navbar-nav > li > a:hover::before {
     padding-top: 5%;
 }
 
+.padding {
+    padding: 5%;
+}
+
 .sv-padding-video {
     padding:2px!important;
 }
@@ -12869,3 +12868,32 @@ body .navbar-default .navbar-nav > li > a:hover::before {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
   }
+
+
+.sv-font-size {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sv-p-padding {
+    padding-bottom: 2%;
+}
+
+.sv-text-align {
+    text-align: center;
+}
+
+.sv-span {
+    color: #00e8bb;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sv-small {
+    font-weight: 600;
+}
+
+.sv-p-unset {
+    padding-right: unset;
+    padding-left: unset;
+}
