@@ -1315,8 +1315,8 @@ video {
     padding-bottom: 60px;
 }
 .p-80-cont {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .p-110-cont {
     padding-top: 110px;
@@ -1337,8 +1337,8 @@ video {
     padding-bottom: 50px;
 }
 .pt-100-b-80-cont {
-    padding-top: 100px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 40px;
 }
 .pt-110-b-80-cont {
     padding-top: 110px;
@@ -6107,13 +6107,15 @@ button {
 }
 .button.thin.gray {
     border-color: #000467;
-    color: #000467;
+    color: white!important;
     width: 100%;
     text-align: center;
+    background-color: #000467;
 }
 .button.thin.gray:hover {
-    background-color: #535961;
+    background-color: #000467!important;
     color: #00e8bb!important;
+    border-color: #00e8bb!important;
 }
 .button.thin.white {
     border-color: #fff;
@@ -12779,8 +12781,8 @@ body .navbar-default .navbar-nav > li > a:hover::before {
   
   @media screen and (min-width: 768px) {
   .right-button {
-    height:120px;
-    width:60px;
+    height:90px;
+    width:45px;
     border-radius: 90px 0 0 90px;
     -moz-border-radius: 90px 0 0 90px;
     -webkit-border-radius: 90px 0 0 90px;
@@ -12790,8 +12792,8 @@ body .navbar-default .navbar-nav > li > a:hover::before {
   }
   
   .left-button {
-    height:120px;
-    width:60px;
+    height:90px;
+    width:45px;
     border-radius: 0 90px 90px 0;
     -moz-border-radius: 0 90px 90px 0;
     -webkit-border-radius: 0 90px 90px 0;
@@ -12801,15 +12803,15 @@ body .navbar-default .navbar-nav > li > a:hover::before {
   }
   
   .carousel-control .glyphicon-chevron-left{
-    top:35%;
+    top:30%;
     font-size: 35px;
     left:5%;
   }
   
   .carousel-control .glyphicon-chevron-right{
-    top:35%;
+    top:30%;
     font-size: 35px;
-    left:35%;
+    left:20%;
   }
   
   .carousel-caption {
@@ -12857,7 +12859,6 @@ body .navbar-default .navbar-nav > li > a:hover::before {
   }
   .sv-grayscale img {
     height: 100px;
-    float: left;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
@@ -12904,6 +12905,20 @@ body .navbar-default .navbar-nav > li > a:hover::before {
     padding-left: unset;
 }
 
+.sv-padding-bottom {
+    padding-bottom: unset!important;
+}
+
+.sv-pt-unset {
+    padding-top: unset!important;
+}
+
+.sv-ptpb {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 10vh;
+}
+
 .sv-card-location {
     border: 2px solid black;
     text-align: center;
@@ -12934,4 +12949,128 @@ body .navbar-default .navbar-nav > li > a:hover::before {
         height: 40vh!important;
 
     }
+}
+
+.page-title-smal-home {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+    padding:5%;
+}
+
+.sv-border-unset {
+    border:unset;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card img {
+    vertical-align: middle;
+    border-style: none;
+    height: 45vh;
+    border: 1px solid #000467;
+    border-bottom: unset;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    border:1px solid #000467;
+}
+
+.sv-padding-card {
+    padding: 3%;
+}
+
+.sv-ptpb-card {
+    padding-bottom: 3%;
+}
+
+.sv-ptpb-card-1 {
+    padding-top: 3%;
+}
+
+.sv-padding-top-pdf {
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
+.sv-m-bt {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.sv-h3-margin {
+    margin: unset;
+}
+
+.sv-table {
+    width:100%;
+}
+
+.sv-table tr {
+    border: 1px solid black;
+}
+
+.sv-table thead tr th, .sv-table tbody tr td {
+    padding: 1rem;
+}
+
+.sv-table thead {
+    background-color: #000467;
+    color: white;
+    font-weight: 600;
+}
+
+.sv-th1 {
+    width: 40%;
+}
+
+.sv-th2 {
+    width: 20%;
+}
+
+.sv-th3 {
+    width: 20%;
+}
+
+.sv-th4 {
+    width: 20%;
+}
+
+.sv-table thead tr th, .sv-table tbody tr td {
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+
+.sv-overflow {
+    overflow: auto;
+}
+
+.sv-table {
+    padding: unset!important;
+    padding-top: 2%!important;
+    padding-bottom: 3%!important;
 }
